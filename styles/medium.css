@@ -1,0 +1,118 @@
+.store-space{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.store , .services{
+    height: auto;
+    position: relative;
+}
+.container .column{
+    width: 80%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+ }
+ .container{
+    width: 100%;
+ }
+ .container .row {
+    display: grid;
+    grid-template-columns: 0.85fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.container .column img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.contact-us{
+    position: relative;
+    min-height: 100vh;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(0.6turn, #3f87a6, #ebf8e1, #f69d3c)
+}
+.content p{
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-form{
+    width: 90%;
+    padding: 50px;
+    background-color: #ffffff;
+}
+.contact-us-box {
+    position: relative;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text p {
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: medium;
+    max-width: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.home h1{
+    
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-right: auto;
+}
+.home p{
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 350;
+    color: white;
+    padding: 40px 10px;
+}
+.about-us{
+    height: auto;
+    position: relative;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    border: 3px solid rgb(162, 243, 112);
+}
+
+.contact-button{
+    border: none;
+    background-color: rgb(135, 135, 244);
+    width: 120px;
+    height: 40px;
+    
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.content p {
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 80px;
+}

@@ -1,0 +1,51 @@
+.text p {
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: small;
+    max-width: 100px;
+    padding: 0;
+    margin: 0;
+}
+.content p {
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+}
+img {
+    width: 150px;
+    cursor: pointer;
+    z-index: 0;
+}
+nav .ham-menu-icon {
+    display: none;
+    height: min-content;
+    margin: 8px 15px 0 0;
+    cursor: pointer;
+    position: absolute;
+    right: -5px;
+}
+nav .ham-menu-icon .bar {
+    width: 32px;
+    height: 3px;
+    margin-bottom: 9px;
+    background: #ffffff;
+    border-radius: 10%;
+    transition: 0.4s;
+}
+.contact-button{
+    border: none;
+    background-color: rgb(135, 135, 244);
+    width: 120px;
+    height: 40px;
+    
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.content p {
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 80px;
+}

@@ -1,0 +1,31 @@
+.social ul li button {
+    background-color: #121212;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    transition: transform 0.4s ease;
+}
+.text p {
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    max-width: 100px;
+    padding: 0;
+    margin: 0;
+}
+.contact-button{
+    border: none;
+    background-color: rgb(135, 135, 244);
+    width: 120px;
+    height: 40px;
+    
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.content p {
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding: 10px 20px;
+}

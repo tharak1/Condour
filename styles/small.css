@@ -1,0 +1,59 @@
+.container-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 670px;
+    padding: 10px 30px;
+    position: relative;
+    z-index: -3;
+}
+
+.order-button-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.store-space {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    border: 3px solid rgb(162, 243, 112);
+}
+.contact-button{
+    border: none;
+    background-color: rgb(135, 135, 244);
+    width: 120px;
+    height: 40px;
+    
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.content p {
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 80px;
+}

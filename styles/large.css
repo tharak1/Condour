@@ -1,0 +1,212 @@
+.store-space{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 10px;
+    padding:  15px;
+    border-radius: 25px;
+    
+    border: 3px solid rgb(162, 243, 112);
+}
+.about-us p{
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    padding: 40px 28px;
+
+}
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 670px;
+    padding: 20px 60px;
+    position: relative;
+    z-index: -3;
+}
+
+.about-us{
+    height: auto;
+    position: relative;
+}
+.container-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form {
+    width: 80%;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.text p {
+    font-family: "Oxygen",Arial, Helvetica, sans-serif;
+    font-size: medium;
+    max-width: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: relative;
+   z-index: 0;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 0 ;
+}
+.nav-item{
+    cursor: pointer;
+    height: 100%;
+    padding: 0 30px;
+    transition: 0.4s;
+    z-index: 0 ;
+}
+img{
+    width: 180px;
+    cursor: pointer;
+    z-index: 0 ;
+}
+
+.contact-button{
+    border: none;
+    background-color: rgb(135, 135, 244);
+    width: 120px;
+    height: 40px;
+    
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    z-index: 0 ;
+}
+nav::before{
+    content: "";
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgb(134, 180, 133);
+
+}
+
+.home::before{
+    content: "";
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background: url(../img/pexels-anastasia-shuraeva-8926961.jpg) no-repeat center center/cover;
+}
+.Show-more::after , .Show-more::before{
+    content: "";
+    position: absolute;
+    opacity: 0.18;
+    background-color: black;
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.4s ease;
+}
+
+nav .nav-item{
+    cursor: pointer;
+    height: 100%;
+    padding: 20px 30px;
+    transition: 0.4s;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.nav-list li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-list li a:hover{
+    background-color: rgb(129, 129, 236);
+    color: antiquewhite;
+    border-radius: 50px;
+    transform: translateY(px);
+
+}
+
+nav .nav-list{
+    display: grid;
+    position: absolute;
+    background-color: rgb(134, 180, 133);
+    width: 100%;
+    top: 60px;
+    z-index: -2;
+    transition: 0.6s;
+    transform: translateY(-100%);
+}
+
+nav .ham-menu-icon {
+    display: grid !important;}
+
+    #ctb{
+        display: none;
+    }
+    nav .ham-menu-icon{
+        display: none;
+        height: min-content;
+        margin: 13px 20px 0 0;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+    }
+    .nav-item #ctb-1{
+        display: flex;
+    }
+
+
+    .contact-button{
+        border: none;
+        background-color: rgb(135, 135, 244);
+        width: 120px;
+        height: 40px;
+        margin: 0;
+        border-radius: 50px;
+        transition: all 0.3s ease 0s;
+    }
+    .content p {
+        font-family: "Oxygen",Arial, Helvetica, sans-serif;
+        font-size: medium;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding: 10px 80px;
+    }
+    .heading {
+        margin-top: -20px;
+        padding-top: 50px;
+        font-family: "Oxygen",Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: xx-large;
+    }
